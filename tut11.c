@@ -35,7 +35,7 @@ int main()
   int res = a < b && b > c;//10 < 20 && 20>30// 1 && 0 //0  
   //printf("%d\n", res);
 
-  int res1 = a > b || b > c;//10 > 20 && 20>30// 0 && 0  
+  int res1 = a > b || b > c;//10 > 20 || 20>30// 0 || 0  
   printf("%d\n", res1);
   
 
